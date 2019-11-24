@@ -696,6 +696,31 @@ td {
   margin: 0.5rem 0 0;
   font-weight: 600;
 }
+.sidebar-ov-social {
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.sidebar-ov-social__item {
+  display: inline-block;
+  margin: 0.2rem;
+  text-align: center;
+  color: #fff;
+  background-color: #a0daff;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  transition-property: background-color;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+}
+.sidebar-ov-social__item:hover {
+  color: #fff;
+  background-color: #4dbaff;
+}
+.sidebar-ov-social__item--icon {
+  font-size: 1.2em;
+}
 .sidebar-ov-state {
   padding: 0.5rem 0;
   text-align: center;
@@ -1408,6 +1433,48 @@ td {
   color: #333;
   word-wrap: break-word;
   overflow-wrap: break-word;
+}
+.reward {
+  text-align: center;
+}
+.reward-button {
+  display: inline-block;
+  margin: 1rem 0 1.5rem;
+  border-radius: 10px;
+  padding: 0.2rem 1rem;
+  color: #fff;
+  background-color: #ff6868;
+  transition-property: background-color;
+  cursor: pointer;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+}
+.reward-button:hover {
+  background-color: #e45c5c;
+}
+.reward-qr {
+  display: none;
+}
+.reward-qr-alipay,
+.reward-qr-wechat {
+  display: inline-block;
+  margin: 0 2rem;
+}
+.reward-qr-alipay__img,
+.reward-qr-wechat__img {
+  width: 200px;
+  height: 200px;
+}
+.reward-qr-alipay-text,
+.reward-qr-wechat-text {
+  margin: 0.5rem 0;
+}
+.reward-qr-alipay-text {
+  color: #1caceb;
+}
+.reward-qr-wechat-text {
+  color: #3cb034;
 }
 .back2top {
   position: fixed;
